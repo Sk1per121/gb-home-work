@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -16,13 +19,43 @@
             <div class="container">
                 <div class="header">
                     <div class="left_header_block">
-                        <div class="image_block img_logo"></div>
+                        <div class="img_logo"></div>
                         <div class="image_block img_search"></div>
                     </div>
                     <div class="right_header_block">
                         <div class="image_block img_menu"></div>
                         <div class="image_block img_login"></div>
                         <div class="image_block img_basket"></div>
+                    </div>
+                    <div class="header_menu">
+                        <div class="menu_close">
+                            <img class="cross" src="image/main/cross.svg" alt="img">
+                        </div>
+                        <div class="header_menu_title">MENU</div>
+                        <div class="group_menu_title">MAN</div>
+                        <div class="list_menu">
+                            <div class="item_menu">Accessories</div>
+                            <div class="item_menu">Bags</div>
+                            <div class="item_menu">Denim</div>
+                            <div class="item_menu">T-Shirts</div>
+                        </div>
+                        <div class="group_menu_title">WOMAN</div>
+                        <div class="list_menu">
+                            <div class="item_menu">Accessories</div>
+                            <div class="item_menu">Jackets & Coats</div>
+                            <div class="item_menu">Polos</div>
+                            <div class="item_menu">T-Shirts</div>
+                            <div class="item_menu">Shirts</div>
+                        </div>
+                        <div class="group_menu_title">KIDS</div>
+                        <div class="list_menu">
+                            <div class="item_menu">Accessories</div>
+                            <div class="item_menu">Jackets & Coats</div>
+                            <div class="item_menu">Polos</div>
+                            <div class="item_menu">T-Shirts</div>
+                            <div class="item_menu">Shirts</div>
+                            <div class="item_menu">Bags</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -42,14 +75,14 @@
                 <div class="padding_60"></div>
                 <div class="form">
                     <form id="form" action="">
-                        <div class="form_group_title">Your Name</div>
+                        <div class="group_title">Your Name</div>
                         <input type="text" placeholder="First Name">
                         <input type="text" placeholder="Last Name">
                         <div class="block_radio">
                             <label for="radio"><input id="radio" name="radio" type="radio"> Male</label>
                             <label for="radio1"><input id="radio1" name="radio" type="radio"> Female</label>
                         </div>
-                        <div class="form_group_title">Login details</div>
+                        <div class="group_title">Login details</div>
                         <input type="text" placeholder="Email">
                         <input type="text" placeholder="Password">
                         <div class="form_warn">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</div>
