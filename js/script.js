@@ -3,6 +3,10 @@ $(function() {
         $(this).toggleClass('active');
     });
 
+    $('.filter_title').click(function() {
+        $('.filter').toggleClass('active');
+    });
+
     $('.img_menu, .menu_close .cross').click(function() {
         $('.header_menu').toggleClass('active');
     });

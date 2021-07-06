@@ -11,9 +11,7 @@ input[type="text"] {
     padding: 12px 16px;
     margin-bottom: 20px;
 }
-button {
-    background: none;
-    outline: none;
+.button {
     cursor: pointer;
     user-select: none;
 }
@@ -468,6 +466,9 @@ main .container_main_brand .right_brand_block .brand_block_text .brand_subtext {
     border-radius: 0 30px 30px 0;
     border: 0;
     outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .subscribe_input_mail .subscribe_mail:hover {
     color: #F16D7F;
@@ -572,7 +573,7 @@ main .container_main_brand .right_brand_block .brand_block_text .brand_subtext {
     margin: 0 auto 20px;
     user-select: none;
 }
-.block_filter .filter:hover {
+.block_filter .filter.active {
     position: absolute;
     background-color: #FFFFFF;
     top: -20px;
@@ -580,15 +581,15 @@ main .container_main_brand .right_brand_block .brand_block_text .brand_subtext {
     padding-top: 20px;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
-.block_filter .filter:hover .filter_menu {
+.block_filter .filter.active .filter_menu {
     display: block;
 }
-.block_filter .filter:hover .filter_title {
+.block_filter .filter.active .filter_title {
     width: 90%;
     margin: 0 auto 20px;
     color: #EF5B70;
 }
-.block_filter .filter:hover .custom_icon_line .item_line {
+.block_filter .filter.active .custom_icon_line .item_line {
     background-color: #EF5B70;
 }
 .filter_group,
