@@ -305,9 +305,11 @@ main .container_main_brand .right_brand_block .brand_block_text .brand_subtext {
 .items_fetured .item_block_fetured:hover .add_to_cart {
     display: flex;
 }
+.add_to_cart:hover {
+    border: 3px solid #FFFFFF;
+}
 .add_to_cart:active {
     font-weight: bold;
-    border: 3px solid #FFFFFF;
 }
 .add_to_cart:active .add_to_cart_img {
     -webkit-mask-size: 105%;
